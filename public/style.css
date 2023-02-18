@@ -1,31 +1,34 @@
 body {
     background-color: #23252C;
-}
+    margin: 50rem;
 
-.about-photo {
-    width: 472px;
-    height: 317px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-image: url("pfp.jpg");
 }
-.about-section{
-    width: 25%;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    top: 361px;
+.container {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    margin: 0 auto;
+    top: 53px;
 
     background: #1A1B21;
 }
-.name {
+.about-photo{
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    top: 0px;
+    background: url(pfp.jpg);
+    border-radius: 10px 10px 0px 0px;
+}
+.name{
+    position: absolute;
+    width: 178.06px;
     height: 25.81px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 382px;
-
+    left: 186px;
+    top: 360px;
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -35,12 +38,12 @@ body {
 
     color: #FFFFFF;
 }
-.title {
+.title{
+    position: absolute;
     width: 178.06px;
     height: 14.19px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 414px;
+    left: 200px;
+    top: 400px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -51,9 +54,8 @@ body {
 
     color: #F3BF99;
 }
-.email {
+.email{
     box-sizing: border-box;
-    margin-left: 90px;
 
     display: flex;
     flex-direction: row;
@@ -62,8 +64,11 @@ body {
     padding: 9px 13px 9px 11px;
     gap: 8px;
 
+    position: absolute;
     width: 115px;
-    top: 468px;
+    height: 34px;
+    left: 160px;
+    top: 450px;
 
     background: #FFFFFF;
 
@@ -72,21 +77,127 @@ body {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 }
-.linkedin {
+.linkedin{
+    box-sizing: border-box;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-    margin-left: 270px;
-    
+
+    position: absolute;
     width: 115px;
-    top: 468px;
-    
+    height: 34px;
+    left: 300px;
+    top: 450px;
+
     background: #5093E2;
-    /* shadow/sm */
-    
+
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 }
+.about-header{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 75px;
+    top: 495px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+.about-info{
+    position: absolute;
+    width: 400px;
+    height: 61px;
+    left: 75px;
+    top: 520px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.24px;
+    line-height: 150%;
+
+    color: #DCDCDC;
+}
+.interests-header{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 75px;
+    top: 649px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+.interests-info{
+    position: absolute;
+    width: 400px;
+    height: 61px;
+    left: 75px;
+    top: 675px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.24px;
+    line-height: 150%;
+
+    color: #DCDCDC;
+}
+/* .iconbackground{
+    background: url(SocialIconsBackground.png);
+    position: absolute;
+    width: 550px;
+    height: 64px;
+    bottom: 0px;
+} */
+.facebook{
+    position: absolute;
+    left: 43.27%;
+    right: 52.18%;
+    top: 89.75%;
+    bottom: 7.37%;
+    background: url(FacebookIcon.png)
+}
+.github{
+    position: absolute;
+    left: 61%;
+    right: 34.45%;
+    top: 89.8%;
+    bottom: 7.32%;
+
+    background: url(GitHubIcon.png)
+}
+.instagram {
+    position: absolute;
+    left: 52.18%;
+    right: 43.27%;
+    top: 89.75%;
+    bottom: 7.37%;
+
+    background: url(InstagramIcon.png)
+}
+.twitter{
+    position: absolute;
+    left: 34.36%;
+    right: 61.09%;
+    top: 89.75%;
+    bottom: 7.37%;
+
+    background: url(TwitterIcon.png)
+}
+

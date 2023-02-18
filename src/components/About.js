@@ -3,11 +3,14 @@ import React from "react";
 export default function About() {
     return(
         <div className="about-section">
-            <img className="about-photo" alt=""/>
-            <h1 className="name">Cameron Walker</h1>
-            <h2 className="title">Full-Stack Developer</h2>
-            <button className ="email">Email</button>
-            <button className ="linkedin">LinkedIn</button>
+            <h2 className="about-header">About</h2>
+            <p className="about-info">
+                Aspiring software developer, recently graduated from the University of Nevada, 
+                Las Vegas software developer bootcamp. Experienced leader with five years of 
+                experience leading a 30-member team in a restaurant setting. Familiar with both 
+                client and server software concepts. Eager to enhance and further my skills in Mongo, 
+                Express, React, and Node
+            </p>
         </div>
     )
 }
